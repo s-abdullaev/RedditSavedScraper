@@ -1,4 +1,4 @@
-# Selenium-based Reddit Saved Urls Scraper
+# Selenium-based Scraper For Indexing Saved Links in Reddit
 
 This is a small script for scraping saved urls and posts in your reddit profile. 
 
