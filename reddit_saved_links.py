@@ -17,13 +17,13 @@ username="your_username"
 pwd="your_pwd"
 
 driver=webdriver.Chrome()
-driver.get("http://www.reddit.com")
+driver.get("https://www.reddit.com/login/")
 
-elem = driver.find_element_by_name("user")
+elem = driver.find_element_by_name("username")
 elem.clear()
 elem.send_keys(username)
 
-elem = driver.find_element_by_name("passwd")
+elem = driver.find_element_by_name("password")
 elem.clear()
 elem.send_keys(pwd)
 elem.submit()
